@@ -1,0 +1,135 @@
+/* Общи стилове */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Заглавие и навигация */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #77aaff;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero-section h2 {
+    margin-top: 0;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 20px;
+}
+
+/* About Section */
+.about-section {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery-section {
+    background: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    border: 3px solid #333;
+}
+
+/* Videos Section */
+.videos-section {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos video {
+    width: 45%;
+    border: 3px solid #333;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: #77aaff 3px solid;
+}

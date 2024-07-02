@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sport Mania</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>Sport Mania</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Начало</a></li>
+                    <li><a href="#about">За нас</a></li>
+                    <li><a href="#gallery">Галерия</a></li>
+                    <li><a href="#videos">Видеоклипове</a></li>
+                    <li><a href="#contact">Контакт</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2>Добре дошли в Sport Mania</h2>
+                <p>Най-новите новини, снимки и видеоклипове от света на спорта.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>За нас</h2>
+                <p>Sport Mania е водещ уебсайт, посветен на всички спортни фенове. Нашата мисия е да ви предоставим най-актуалната информация и медия от света на спорта.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2>Галерия</h2>
+                <div class="gallery">
+                    <img src="images/sport1.jpg" alt="Спорт 1">
+                    <img src="images/sport2.jpg" alt="Спорт 2">
+                    <img src="images/sport3.jpg" alt="Спорт 3">
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="videos-section">
+            <div class="container">
+                <h2>Видеоклипове</h2>
+                <div class="videos">
+                    <video controls>
+                        <source src="videos/sport_video1.mp4" type="video/mp4">
+                        Вашият браузър не поддържа видеоклипове.
+                    </video>
+                    <video controls>
+                        <source src="videos/sport_video2.mp4" type="video/mp4">
+                        Вашият браузър не поддържа видеоклипове.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Контакт</h2>
+                <p>Свържете се с нас на email: sportmania@example.com или телефон: 123-456-7890</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sport Mania. Всички права запазени.</p>
+        </div>
+    </footer>
 </body>
 </html>
