@@ -1,5 +1,5 @@
 footer {
-    background-color:#008600;
+    background-color:#0f690f;
     color: #ffffff;
     text-align: center;
     padding: 1em;
@@ -18,7 +18,7 @@ body {
   .navigation {
     display: flex;
     justify-content: center;
-    background-color: #008600;
+    background-color: #0f690f;
     padding: 0em;
     padding-right: 1em;
     padding-left: 6em;
@@ -51,7 +51,7 @@ body {
   
   .navigation a:hover {
       color:black;
-      color: #008600 ;
+      color: #0f690f ;
       text-shadow:2px 2px 2px rgba(0, 0, 0, 0.637);
       
   }
@@ -64,4 +64,26 @@ body {
       color: #ffffe6;
       text-shadow:2px 2px 2px rgba(255, 255, 255, 0.637);
   }
+  /* .h1
+  {
+   
+    top: 10px;
+    left: 10px;
+    color: #1c3b2d;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+  } */
   
+#cover-text
+{
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    color: #ffffff;
+   
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
