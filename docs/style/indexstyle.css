@@ -69,11 +69,20 @@ body {
 #cover-text
 {
     position: absolute;
-    top: 7rem;
-    right: 3rem;
-    color: #28ff82;
+    top: 10rem;
+    left: 2rem;
+    color: #045511;
     word-wrap: break-word;
     padding: 10px;
     border-radius: 5px;
     z-index: 10;
+    width: 35rem;
+}
+
+.nav-link
+{
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    background-color: #098810;
 }
