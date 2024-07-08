@@ -81,10 +81,30 @@ body {
 .nav-link
 {
     position: fixed;
-    top: 1rem;
-    right: 2rem;
+    top: 6.5rem;
+    right: 1px;
+   
     background-color: #098810;
 }
+.dropdown-menu
+  {
+    background-color: #0f690f;
+    text-align:justify;
+    width:8rem;
+    color:rgb(0, 0, 0);
+    color: #0f690f ;
+   
+  }
+  .dropdown-item
+  {
+    text-align:justify;
+    box-shadow: #b4f0b7;
+   
+    color:rgb(0, 0, 0);
+      color: #0f690f ;
+
+    
+  }
 main{
     display:flex;
    max-width:50rem;

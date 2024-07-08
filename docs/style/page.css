@@ -3,12 +3,23 @@ body {
     background-color: #b4f0b7;
     margin: 0;
     padding: 0;
-    
+   
+}
+
+footer {
+    background-color:#0f690f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 45px;
+	box-shadow:0 0 20px rgba(0, 0, 0, 0.637);
 }
 
 
-
-.navigation {
+  .navigation {
     display: flex;
     justify-content: center;
     background-color: #0f690f;
@@ -57,93 +68,28 @@ body {
       color: #ffffe6;
       text-shadow:2px 2px 2px rgba(255, 255, 255, 0.637);
   }
-  .nav-link {
+  header {
+    background-color: #098810;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+.nav-link {
     position: fixed;
     top: 1rem;
     right: 2rem;
     background-color: #098810;
 }
-.dropdown-menu
-  {
-    background-color: #0f690f;
-    text-align:justify;
-    width:8rem;
-    color:rgb(0, 0, 0);
-    color: #0f690f ;
-   
-  }
-  .dropdown-item
-  {
-    text-align:justify;
-    box-shadow: #b4f0b7;
-   
-    color:rgb(0, 0, 0);
-      color: #0f690f ;
+  
 
-    
-  }
+
 .container {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 20px auto;
-    
-   
-
-    
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button[type="submit"] {
-    background-color: #098810;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
-}
-
-button[type="submit"]:hover {
-    background-color: #3acc4d;
+    width: 95%; /* Увеличаване на ширината на контейнера */
+    margin-top: 20px; /* Разстояние между контейнера и навигационното меню */
 }
 
 
-footer {
-    background-color:#0f690f;
-    color: #ffffff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-	height: 45px;
-	box-shadow:0 0 20px rgba(0, 0, 0, 0.637);
-}

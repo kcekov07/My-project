@@ -51,7 +51,7 @@ body {
   }
   
   .navigation a:hover {
-      color:black;
+      color:rgb(0, 0, 0);
       color: #0f690f ;
       text-shadow:2px 2px 2px rgba(0, 0, 0, 0.637);
       
@@ -68,11 +68,28 @@ body {
   .nav-link {
     position: fixed;
     top: 1rem;
-    right: 2rem;
+    right: 1px;
     background-color: #098810;
 }
-  
-  
+  .dropdown-menu
+  {
+    background-color: #0f690f;
+    text-align:justify;
+    width:8rem;
+    color:rgb(0, 0, 0);
+    color: #0f690f ;
+   
+  }
+  .dropdown-item
+  {
+    text-align:justify;
+    box-shadow: #b4f0b7;
+   
+    color:rgb(0, 0, 0);
+      color: #0f690f ;
+
+    
+  }
 #cover-text
 {
     position: absolute;
