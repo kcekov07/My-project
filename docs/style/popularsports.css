@@ -116,19 +116,21 @@ body {
     width: 1000%;
     height: 90px;
     margin-top: 80px;
+   
 }
 
 .card-deck {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+   
 }
 
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: calc(20% - 20px);
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .card-img-top {
